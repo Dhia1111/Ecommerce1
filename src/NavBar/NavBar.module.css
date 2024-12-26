@@ -1,0 +1,76 @@
+
+ :root{
+    --mainColor:rgb(37 103 109);
+
+ }
+ 
+.Container{
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  color: var(--mainColor);
+  padding: 15px 0;
+}
+
+.Menue{
+    display: flex
+;
+    gap: 20px;
+}
+
+.Menue a{
+
+     text-decoration: none;
+     color: inherit;
+}
+
+.Basket{
+
+position: relative;
+width: 30px;
+height: fit-content;
+}
+.Basket img{
+
+    width: 100%;
+}
+
+.Counter{
+
+    background-color: red;
+    color: white;
+    padding: 1px 4px;
+    border-radius: 51px;
+    font-size: 10px;
+    position: absolute;
+}
+
+.LogInAndBasket{
+    display: flex
+    ;
+        align-items: center;
+        justify-content: space-between;
+        gap: 29px;
+}
+.Shopper{ display: flex
+    ;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;}
+.btn{
+    width: 100px;
+    height: 44px;
+    border-radius: 40px;
+    padding: 13px
+    ;
+    cursor: pointer;
+    background-color: white;
+    border:1px solid black;
+}
+
+.img{
+    width: 40px;
+
+}
+

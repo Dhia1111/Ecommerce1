@@ -1,0 +1,20 @@
+
+
+.Title{
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.Title::after{
+    content: "";
+    width: 46%;
+    height: 3px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%);
+    background: black;
+}

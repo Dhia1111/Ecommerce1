@@ -1,0 +1,80 @@
+
+
+.Container{
+    display: flex
+;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background: linear-gradient(0deg, transparent, lightblue);
+}
+
+.Container .img{
+    height: 100%;
+}
+
+.textContainer{
+    display: flex
+    ;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        text-align: left;
+}
+
+.NewArrivals{
+
+font-weight: bold;
+font-size: 13px;
+}
+
+.FirstTitleLine{
+
+    display: flex
+;
+    align-items: center;
+}
+
+.FirstTitleLine .img2{
+
+    width: 47px;
+    align-self: end;
+}
+
+
+.Title{
+    font-size: 60px;
+    max-width: 381px;
+    text-wrap-style: auto;
+    font-weight: bold;
+}
+
+.btn{
+background: red;
+    border: 1px solid;
+    padding: 9px 14px;
+    color: white;
+    align-items: center;
+    display: flex
+;
+    gap: 10px;
+    border-radius: 22px;
+    cursor: pointer;
+
+}
+.btn img{
+
+
+ width: 20px;
+ 
+ 
+
+
+
+}
+
+
+.Container a{
+
+    text-decoration: none;
+}

@@ -1,0 +1,127 @@
+
+
+ul{
+    padding: 0;
+    margin: 0;
+
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
+.Container{
+    display: flex
+    ;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+        margin:  0 40px;
+}
+
+.imgContainer{
+
+    width: 500px;
+    height: 450px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer{
+
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: left;
+    
+}
+
+.imgContainer .img{
+    height: 100%;
+}
+
+.smallimgContainer{
+
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    gap: 12px;
+    width: 20%;
+    justify-content: space-between;
+
+
+}
+.smallimgContainer img{
+    height: 23%;
+}
+
+
+
+.p{    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+    max-width: 400px;
+    color: #027f78;
+}
+
+.Prices{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-size: 15px;
+    align-self: flex-start;
+    padding: 10px 0;
+}
+
+.span1{
+
+    color: black;
+    
+
+}
+
+.span2{
+position: relative;
+    color: gray;
+
+}
+
+.span2::after{
+    position: absolute;
+        content: "";
+        height: 1px;
+        width: 100%;
+        left:50% ;
+        top: 50%;
+        transform: translate(-50%);
+    background-color: gray;
+    
+    }
+.Icon{
+ color: gold;
+}
+
+.Stars{
+font-size: 11px;
+}
+.h2{
+    max-width: 400px;
+}
+
+.btn{
+
+    color: white;
+    background-color: red;
+    padding: 10px 10px ;
+    font-size: 14px;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}

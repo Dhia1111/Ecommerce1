@@ -1,0 +1,61 @@
+
+
+.Container{
+
+    display: flex;
+    flex-flow:column;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+}
+
+.img{
+
+    height: 200px;
+
+}
+
+.p{font-size: 9px;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    max-width: 167px;
+    color: black;
+}
+
+.Prices{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-size: 12px;
+    align-self: flex-start;
+}
+
+.span1{
+
+    color: black;
+    
+
+}
+
+.span2{
+position: relative;
+    color: gray;
+
+}
+
+.span2::after{
+position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    left:50% ;
+    top: 50%;
+    transform: translate(-50%);
+background-color: gray;
+
+}
